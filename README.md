@@ -22,7 +22,7 @@ The drawback of this approach is that there is usually noisy measurement in the 
 
 ### iii) 'Common-Volatility' Approach
 
-DeMIGUEL *et al.* from London Business School suggested in their paper [link](https://lbsresearch.london.edu/id/eprint/3716/1/The%20Journal%20of%20Finance%20-%202024%20-%20DeMIGUEL%20-%20A%20Multifactor%20Perspective%20on%20Volatility%E2%80%90Managed%20Portfolios.pdf) that the risk-return trade-off should be determined by the overall market turbulence instead of the single asset's idiosyncratic wiggles. In other words, we should use a common marker-wide volatility for all the assets when adjusting the weights. More explicitly, we should consider a common $$x$$ derived from the market volatility $$\sigma_M$$ for all assets as below:
+DeMIGUEL *et al.* from London Business School suggested in their paper [(link)](https://lbsresearch.london.edu/id/eprint/3716/1/The%20Journal%20of%20Finance%20-%202024%20-%20DeMIGUEL%20-%20A%20Multifactor%20Perspective%20on%20Volatility%E2%80%90Managed%20Portfolios.pdf) that the risk-return trade-off should be determined by the overall market turbulence instead of the single asset's idiosyncratic wiggles. In other words, we should use a common marker-wide volatility for all the assets when adjusting the weights. More explicitly, we should consider a common $$x$$ derived from the market volatility $$\sigma_M$$ for all assets as below:
 
 $$r_t = x_{t-1} \sum_i w_i r_{i,t}$$
 
