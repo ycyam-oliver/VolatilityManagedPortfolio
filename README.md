@@ -77,7 +77,7 @@ The comparison of the performance of two different approaches on the 'Magnificen
   </tbody>
 </table>
 
-It can be seen that the 'Common-volatility' perform better than the 'One-factor' approach in both risk and return.
+It can be seen that the 'Common-volatility' approach perform better than the 'One-factor' approach in both risk and return.
 
 ## 📜Usage
 
