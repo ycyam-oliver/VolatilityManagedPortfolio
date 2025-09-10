@@ -2,7 +2,7 @@
 
 ## 💡Introduction
 
-### Return of a Portfolio
+### i) Return of a Portfolio
 
 The return of a portfolio with a collection of assets $$i$$'s at time $$t$$ is given by
 
@@ -10,7 +10,7 @@ $$r_t = \sum_i w_i r_{i,t}$$
 
 where $$w_i$$ is the weight of asset $$i$$ in the portfolio and $$r_{i,t}$$ is its return at time $$t$$.  
 
-### 'One-factor' Approach
+### ii) 'One-factor' Approach
 
 When managing a portfolio, the weight $$w_i$$ is adjusted dynamically over time. A common strategy to modulate $$w_i$$ is based on a quantity $$x$$ determined by some volatility $$\sigma_{i,t}$$ of the asset $$i$$ at time $$t$$. In equation, it looks
 
@@ -20,7 +20,7 @@ where $$x_{i,t-1}$$ is a function of $$\sigma_{i,t-1}$$ adjusting the weight $$w
 
 The drawback of this approach is that there is usually noisy measurement in the individual asset's volatility, suggesting big swings in position size. 
 
-### 'Common-Volatility' Approach
+### iii) 'Common-Volatility' Approach
 
 DeMIGUEL *et al.* from London Business School suggested in their paper [link](https://lbsresearch.london.edu/id/eprint/3716/1/The%20Journal%20of%20Finance%20-%202024%20-%20DeMIGUEL%20-%20A%20Multifactor%20Perspective%20on%20Volatility%E2%80%90Managed%20Portfolios.pdf) that the risk-return trade-off should be determined by the overall market turbulence instead of the single asset's idiosyncratic wiggles. In other words, we should use a common marker-wide volatility for all the assets when adjusting the weights. More explicitly, we should consider a common $$x$$ derived from the market volatility $$\sigma_M$$ for all assets as below:
 
